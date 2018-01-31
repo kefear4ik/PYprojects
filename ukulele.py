@@ -1,0 +1,2 @@
+a = "hiu"
+print(a)
