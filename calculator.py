@@ -1,24 +1,22 @@
-# print("press key  to  \n1           a*b\n2           a+b\n3           a/b\n4           a-b ")
-# k = input()
-# a1 = input()
-# b1 = input()
+print("press key  to  \n1           a*b\n2           a+b\n3           a/b\n4           a-b ")
+k = int(input())
+a = int(input())
+b = int(input())
 
 
-def mult(a, b, k):
-    if   k == 1:
-        q = a * b
-    elif k == 2:
-        q = a + b
-    elif k == 3:
-        q = a / b
-    else :
-        q = a - b
-    return q
+def mult(a1=1, b2=8, k3=2):
+    if k3 == 1:
+        q = a1 * b2
+    elif k3 == 2:
+        q = a1 + b2
+    elif k3 == 3:
+        q = a1 / b2
+    else:
+        q = a1 - b2
+    return q * q
 
 
-mult(1, 5, 1)
-
-
+print(mult(a, b, k))
 
 # def add(a, b):
 #     return a + b
