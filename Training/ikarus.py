@@ -1,0 +1,19 @@
+stroka = 'fresadf'
+print('df' in stroka)
+
+nums = [1, 2, 3]
+nums.append(4)
+print(nums)
+
+print(len(nums))
+
+nums.insert(2, 4)
+print(nums)
+
+print(nums.index(2))
+print(max(nums))
+print(min(nums))
+print(nums.count(4))
+nums.remove(1)
+nums.reverse()
+print(nums)
