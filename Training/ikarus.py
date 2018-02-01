@@ -18,4 +18,13 @@ nums.remove(1)
 nums.reverse()
 print(nums)
 
-print('\n', list(range(1,9)))
+print('\n', list(range(1, 9)))
+
+word = ['hey', 'i', 'am', 'a', 'monster']
+def printer(x):
+    for i in (range(5)):
+        print(x[i]+'!')
+
+printer(word)
+
+
