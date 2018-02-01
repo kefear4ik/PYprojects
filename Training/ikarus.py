@@ -17,3 +17,5 @@ print(nums.count(4))
 nums.remove(1)
 nums.reverse()
 print(nums)
+
+print('\n', list(range(1,9)))
