@@ -22,8 +22,8 @@ print('\n', list(range(1, 9)))
 
 word = ['hey', 'i', 'am', 'a', 'monster']
 def printer(x):
-    for i in (range(5)):
-        print(x[i]+'!')
+    for i in x:
+        print(i+'!')
 
 printer(word)
 
