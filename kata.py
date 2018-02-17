@@ -25,4 +25,4 @@ def bin_to_dec(arr2):
     return int(''.join(map(str, arr2)), 2)
 
 
-print(bin_to_dec([1, 0, 0, 1]))
+print(bin_to_dec([1, 0, 1, 1]))
