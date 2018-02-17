@@ -1,7 +1,7 @@
 stroka = 'fresadf'
 print('df' in stroka)
 
-nums = [1, 2, 3]
+nums = list([1, 2, 3])
 nums.append(4)
 print(nums)
 
@@ -21,10 +21,11 @@ print(nums)
 print('\n', list(range(1, 9)))
 
 word = ['hey', 'i', 'am', 'a', 'monster']
+
+
 def printer(x):
     for i in x:
-        print(i+'!')
+        print(i + '!')
+
 
 printer(word)
-
-
