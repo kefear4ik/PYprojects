@@ -26,3 +26,4 @@ def bin_to_dec(arr2):
 
 
 print(bin_to_dec([1, 0, 1, 1]))
+

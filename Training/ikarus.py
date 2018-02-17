@@ -1,5 +1,6 @@
 stroka = 'fresadf'
 print('df' in stroka)
+print(get(" ",stroka)
 
 nums = list([1, 2, 3])
 nums.append(4)
